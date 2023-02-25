@@ -2,7 +2,7 @@
   text-decoration: none;
   margin: 0 auto;
   padding: 0;
-  width: calc(100% - 2*148px);
+  max-width: 984px;
   display: grid;
   grid-template-columns: auto;
   gap: 80px;
@@ -10,19 +10,19 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-    width: calc(100% - 2*48px);
+    max-width: 928px;
    }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
-    width: calc(100% - 2*24px);
+    max-width: 768px;
     gap: 73px;
   }
 }
 @media screen and (max-width: 767px) {
   .place {
-    width: 100%;
+    max-width: 320px;
     gap: 50px;
   }
 }
