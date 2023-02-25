@@ -12,12 +12,6 @@
 
   .header__lang-link:hover {
     opacity: 0.3;
-    text-decoration: underline;
-  }
-
-  .header__lang-link:active {
-     opacity: 0.3;
-     text-decoration: underline;
   }
   
   @media screen and (max-width: 767px){
