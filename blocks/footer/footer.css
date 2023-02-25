@@ -7,11 +7,19 @@
   align-items: center;
  }  
  
-@media screen and (max-widht: 767px) {
+ @media screen and (max-width: 1023px) {
+  .footer {
+    width: calc(100% - 2*24px);
+    margin: 88px 24px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
   .footer {
     width: 100%;
     flex-direction: column;
-    margin-left: 16px;
+    align-items: flex-start;
+    margin: 64px auto 24px 16px;
     }
 }
 
