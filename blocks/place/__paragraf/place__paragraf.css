@@ -1,4 +1,16 @@
 .place__paragraf {
   margin: 0;
   padding: 0;
+  margin-bottom: 26px;
+}
+.place__paragraf:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:1023px) {
+  .place__paragraf {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+  }
 }
