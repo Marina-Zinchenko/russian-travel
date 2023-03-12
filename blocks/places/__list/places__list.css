@@ -1,5 +1,5 @@
 .places__list {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-decoration: none;
   max-width: 100%;
@@ -22,7 +22,12 @@
 }
 @media screen and (max-width: 767px) {
   .places__list {
-    max-width: 320px;
+    width: 100%;
     gap: 50px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .places__list {
+   max-width: 320px;
   }
 }
